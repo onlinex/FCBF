@@ -7,8 +7,7 @@ Implementation of the FCBF algorithm.
 
 ## System requirements
 
-* Requires Python 2.7
-* Works on Linux and Mac. No guarantees for other OS, but may work.
+* Requires Python 3.6
 
 ## Usage
 
