@@ -45,16 +45,16 @@ def symmetrical_uncertainty(x, y):
 	
 if __name__ == '__main__':
 	vec1 = np.linspace(1,20,20)
-	print "Vec 1:", vec1
-	print "Entropy:", entropy(vec1)
+	print("Vec 1:", vec1)
+	print("Entropy:", entropy(vec1))
 	
 	vec2 = np.tile([4,5,6,7], 5)
-	print "Vec 2:", vec2
-	print "Entropy:", entropy(vec2)
+	print("Vec 2:", vec2)
+	print("Entropy:", entropy(vec2))
 	
 	mi = mutual_information(vec1, vec2)
-	print "Mutual information: {0}".format(mi)
+	print("Mutual information: {0}".format(mi))
 	
 	su = symmetrical_uncertainty(vec1, vec2)
-	print "Symmetrical uncertainty: {0}". format(su)
+	print("Symmetrical uncertainty: {0}". format(su))
 
